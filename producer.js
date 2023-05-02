@@ -1,7 +1,6 @@
 import Queue, { Task } from "./retask.js";
 
 
-//  redis://default:Dn7FqjiGo9T0PlYvFlPQ7XBRBE1M92UJ@redis-10825.c277.us-east-1-3.ec2.cloud.redislabs.com:10825
 const queue = new Queue("example", {
   host: "redis-10825.c277.us-east-1-3.ec2.cloud.redislabs.com",
   port: 10825,
