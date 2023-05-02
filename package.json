@@ -1,0 +1,11 @@
+{
+    "name": "retask",
+    "description": "retask implementation in js",
+    "type": "module",
+    "main": "retask.js",
+    "dependencies": {
+        "redis": "latest",
+        "uuid": "^9.0.0",
+        "uuidv4": "^6.2.13"
+    }
+}
